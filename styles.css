@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+}
+.header-container {
+    background-color: #FFFFFF;
+    color: grey;
+    font-family: 'Roboto Slab', Serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.5);
+}
+
+.header-nav-container {
+    
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 10px;
+    color: grey;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-avatar-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-name {
+    color: gray;
+    padding: 10px;
+    font-weight: normal;
+}
+
+.small-text {
+    font-size: 16px;
+}
+
+.forum-container {
+    font-family: 'Roboto Slab', Serif;
+    font-size: 15px;
+    color: silver;
+    max-width: 800px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.user-card-info {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+    padding: 0;
+    width: 230px;
+}
+
+.user-card-text {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.user-avatar {
+    width: 100%;
+}
+
+.big-text {
+    font-size: 24px;
+    color: black;
+}
+
+.user-job {
+    font-size: 18px;
+}
+
+.forum-articles {
+    max-width: 420px;
+}
+.forum-principal-article {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+}
+
+.post-author {
+    padding: 0 30px;
+}
+
+.post-image {
+    width: 100%;
+}
+
+.post-text {
+    padding: 0px 30px;
+}
+
+.post-title {
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+}
+
+.post-footer{
+    padding: 0 25px;
+}
+.post-actions {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.post-action-item {
+    text-decoration: none;
+    font-size: 14px;
+    color: slategrey;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 25px;
+}
+
+.add-comment-container {
+    padding-bottom: 15px;
+}
+
+.add-comment-action {
+    text-decoration: none;
+    color: silver;
+}
